@@ -22,7 +22,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="BusPark" />
       </profile>
     </annotationProcessing>
   </component>
@@ -40,6 +39,11 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/server/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectModuleManager">
